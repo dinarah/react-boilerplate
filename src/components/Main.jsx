@@ -1,3 +1,6 @@
+import React from 'react';
+import Header from './Header.jsx';
+
 var Main = React.createClass({
     render: function() {
         return(
@@ -10,3 +13,5 @@ var Main = React.createClass({
         );
     }
 });
+
+module.exports = Main;

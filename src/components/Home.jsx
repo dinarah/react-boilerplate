@@ -1,7 +1,9 @@
+import React from 'react';
+
 var Home = React.createClass({
     render: function() {
         return(
-            <p>
+            <p id="red">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel augue hendrerit, 
                 hendrerit ipsum id, lobortis quam. Cras malesuada ornare turpis, ac facilisis massa 
                 fermentum et. Nam elementum purus quam, a scelerisque felis sodales eget. 
@@ -14,3 +16,5 @@ var Home = React.createClass({
         );
     }
 });
+
+module.exports = Home;

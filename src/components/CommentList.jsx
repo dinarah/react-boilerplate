@@ -1,3 +1,6 @@
+import React from 'react';
+import Comment from './Comment.jsx';
+
 var CommentList = React.createClass({
     render: function() {
         var commentsArr = [];
@@ -16,3 +19,5 @@ var CommentList = React.createClass({
         )
     }
 });
+
+module.exports = CommentList;

@@ -1,3 +1,7 @@
+import React from 'react';
+import CommentList from './CommentList.jsx';
+import CommentForm from './CommentForm.jsx';
+
 var CommentBox = React.createClass({
 
     handleCommentPost: function(post) {
@@ -39,3 +43,5 @@ var CommentBox = React.createClass({
         );
     }
 });
+
+module.exports = CommentBox;

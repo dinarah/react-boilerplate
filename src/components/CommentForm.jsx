@@ -1,3 +1,5 @@
+import React from 'react';
+
 var CommentForm = React.createClass({
 
     onButtonClick: function() {
@@ -49,3 +51,5 @@ var CommentForm = React.createClass({
         )
     }
 });
+
+module.exports = CommentForm;

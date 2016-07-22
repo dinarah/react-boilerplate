@@ -1,4 +1,5 @@
-var Link = window.ReactRouter.Link;
+import React from 'react';
+import { Link } from 'react-router';
 
 var Header = React.createClass({
     render: function() {
@@ -29,3 +30,5 @@ var Header = React.createClass({
         );
     }
 });
+
+module.exports = Header;

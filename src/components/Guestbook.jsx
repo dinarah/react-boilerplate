@@ -1,3 +1,6 @@
+import React from 'react';
+import CommentBox from './CommentBox.jsx';
+
 var Guestbook = React.createClass({
     render: function() {
         return(
@@ -8,3 +11,4 @@ var Guestbook = React.createClass({
     }
 });
 
+module.exports = Guestbook;
